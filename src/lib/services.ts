@@ -307,19 +307,20 @@ export const services: readonly ServiceContent[] = [
     },
     illustration: "vbac",
     hero: {
-      eyebrow: "VBAC — Vaginal Birth After Caesarean",
-      heading: "Had a caesarean before? Let's discuss your options for this pregnancy.",
+      eyebrow: "VBAC — VAGINAL BIRTH AFTER CAESAREAN",
+      heading: "Had a C-Section Before? Let’s Talk About Your Birth Options This Time.",
       intro:
-        "VBAC isn't right for everyone, and it isn't ruled out for everyone either. We assess your previous birth history and this pregnancy individually, and plan from there.",
+        "Having had a Caesarean birth before does not automatically mean that every future birth must happen the same way. For some women, planning for a vaginal birth after a previous Caesarean may be an option. The right approach depends on your previous birth, your medical history and your current pregnancy.",
     },
     explanation: {
-      heading: "What a VBAC conversation covers",
-      body: "Whether vaginal birth after a caesarean is appropriate depends on your specific history and this pregnancy — it's assessed individually, not assumed either way. Another caesarean may still be recommended, and that's discussed openly, not as a fallback to avoid.",
+      heading: "What is VBAC?",
+      body: "VBAC stands for Vaginal Birth After Caesarean. It means giving birth vaginally after having had a Caesarean birth in a previous pregnancy. Whether VBAC is an appropriate option for you cannot be decided simply because you have had “one C-section.” Your obstetrician needs to consider your previous Caesarean, medical and obstetric history, and how your current pregnancy is progressing.",
       points: [
-        "A review of your previous caesarean(s) and the reasons behind them",
-        "Assessment of this pregnancy's individual factors",
-        "An honest discussion of what VBAC would involve, including monitoring during labour",
-        "Planning that stays open to a repeat caesarean if that's the safer path",
+        "Your Previous Caesarean — Why was the Caesarean needed and were there any complications?",
+        "Your Previous Birth History — Any previous vaginal births and your overall obstetric history are relevant to the discussion.",
+        "Your Previous Medical Records — Where available, records from your previous delivery can help your obstetrician understand the circumstances and type of previous uterine incision.",
+        "Your Current Pregnancy — Your health, baby’s wellbeing and the progress of this pregnancy are considered.",
+        "Your Birth Preferences — Your questions, concerns and previous birth experience are part of the conversation too.",
       ],
     },
     whoItsFor: [
@@ -329,62 +330,78 @@ export const services: readonly ServiceContent[] = [
       "You want a doctor who will discuss a repeat caesarean honestly if that's the better path",
     ],
     doctorTrust: {
-      heading: "An individual assessment, not a default answer",
-      body: "VBAC eligibility depends on factors specific to you — the reason for your previous caesarean, how this pregnancy is progressing, and how labour unfolds if you choose to attempt VBAC. We won't promise an outcome either way.",
+      heading: "Start With Your Previous Birth Story",
+      body: "Your previous Caesarean is part of your medical history, but it does not by itself determine how your next birth must happen. At your consultation, Dr. Santoshi Nandigam can review your previous birth history, discuss your current pregnancy and help you understand the birth options that may be appropriate for you.",
       bullets: [
-        "Clear explanations before decisions",
-        "Care plans that connect your birth history to this pregnancy",
-        "Support for sensitive conversations without judgement",
+        "Review of previous surgical notes & incision types",
+        "Transparent discussion of clinical evidence & guidelines (RCOG/ACOG)",
+        "Continuity of care from antenatal preparation to hospital birth",
       ],
     },
     journey: {
-      eyebrow: "How A Vbac Conversation Unfolds",
-      heading: "From your previous birth to a plan for this one.",
-      intro: "Every step is based on your individual history — nothing is assumed in advance.",
+      eyebrow: "PREPARING DURING PREGNANCY",
+      heading: "If VBAC Is an Option, Preparation Begins Before Labour",
+      intro: "Once you and your obstetrician have discussed VBAC, preparation can continue throughout pregnancy.",
       steps: [
         {
-          title: "Previous caesarean",
-          body: "We start with what happened and why, in your own words and your records.",
+          title: "Regular Antenatal Care",
+          body: "Monitoring the health and progress of you and your baby.",
         },
         {
-          title: "Consultation",
-          body: "An open conversation about what VBAC would involve for you.",
+          title: "Understanding Labour",
+          body: "Learning how labour may begin and when to contact or come to the hospital.",
         },
         {
-          title: "Assessment",
-          body: "Your history and this pregnancy are assessed together, individually.",
+          title: "Birth Preparation",
+          body: "Discussing movement, breathing, comfort measures, pain-relief choices and birth preferences.",
         },
         {
-          title: "Planning",
-          body: "A plan that stays realistic about both a VBAC and a repeat caesarean.",
+          title: "Birth Partner Preparation",
+          body: "Helping your partner understand how they can support you.",
         },
         {
-          title: "Birth care",
-          body: "Closer monitoring through labour, with the plan adjusted as needed.",
+          title: "Planning Ahead",
+          body: "Understanding both the intended VBAC plan and circumstances that could require that plan to change.",
         },
       ],
     },
     faqs: [
       {
-        q: "Am I automatically eligible for VBAC after one caesarean?",
-        a: "No — eligibility depends on individual factors, including why your previous caesarean was needed and how this pregnancy is progressing. It's assessed, not assumed.",
+        q: "What does VBAC mean?",
+        a: "VBAC stands for Vaginal Birth After Caesarean — giving birth vaginally after having previously had a Caesarean birth.",
       },
       {
-        q: "Is VBAC riskier than a repeat caesarean?",
-        a: "Both pathways carry different considerations, which we'll walk through for your specific situation during consultation — this isn't something we generalise.",
+        q: "Can I have a vaginal delivery after one C-section?",
+        a: "For many women, it may be an option, but it depends on your previous Caesarean, medical and obstetric history and current pregnancy. Your obstetrician needs to assess these factors individually.",
       },
       {
-        q: "What happens if I start labour and VBAC isn't progressing safely?",
-        a: "Labour is monitored closely, and the plan can shift to a caesarean if that becomes the safer option at any point.",
+        q: "Does one previous C-section mean I need another C-section?",
+        a: "Not necessarily. After a previous Caesarean, both VBAC and a planned repeat Caesarean may be options depending on your individual circumstances.",
       },
       {
-        q: "Can we still plan a repeat caesarean instead?",
-        a: "Yes — a repeat caesarean is a valid, openly discussed option if that's what's appropriate or what you prefer.",
+        q: "When should I discuss VBAC with my doctor?",
+        a: "It is helpful to discuss your previous birth and options during pregnancy rather than waiting until labour. RCOG recommends discussing birth options during antenatal care.",
+      },
+      {
+        q: "Will my previous C-section records be useful?",
+        a: "Yes. Information about why your previous Caesarean was performed, any complications and the type of incision made in the uterus can be relevant when assessing birth options.",
+      },
+      {
+        q: "Can I have pain relief if I am planning a VBAC?",
+        a: "Yes. Pain-relief options can be discussed with your maternity team; RCOG specifically notes that various options, including an epidural, may be used during VBAC labour.",
+      },
+      {
+        q: "What happens if labour does not progress as expected?",
+        a: "Your maternity team will monitor you and your baby. If circumstances change, your obstetrician may recommend changing the birth plan, which can include Caesarean delivery when clinically appropriate.",
+      },
+      {
+        q: "Is VBAC the same as normal vaginal delivery?",
+        a: "VBAC describes a vaginal birth specifically in someone who has previously had a Caesarean. A vaginal birth without that previous Caesarean history would not be called VBAC.",
       },
     ],
     cta: {
-      heading: "Want to talk through your VBAC options?",
-      body: "Reach out by phone or WhatsApp — we'll start with your previous birth history.",
+      heading: "Had a Previous C-Section and Thinking About Your Next Birth?",
+      body: "You don’t need to decide based on general information online. Bring your previous delivery records, if available, and speak with your obstetric care team about your individual pregnancy and birth options.",
     },
   },
   {

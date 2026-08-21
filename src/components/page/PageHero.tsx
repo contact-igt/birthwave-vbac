@@ -47,7 +47,7 @@ export function PageHero({
       <Container className="grid items-center gap-12 xl:grid-cols-[1.1fr_0.9fr] xl:gap-16">
         <div>
           <p
-            className={`text-[13px] font-semibold uppercase tracking-[0.14em] ${ACCENT[accent]}`}
+            className={`text-[14px] sm:text-[15px] font-bold uppercase tracking-[0.14em] ${ACCENT[accent]}`}
           >
             {eyebrow}
           </p>

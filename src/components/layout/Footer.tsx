@@ -4,9 +4,10 @@ import { Container } from "@/components/Container";
 import { site } from "@/lib/site";
 
 const quickLinks = [
-  { label: "Care & Support", href: "#care-support" },
-  { label: "Care Experience", href: "#video" },
-  { label: "VBAC Journey", href: "#journey" },
+  { label: "Understanding VBAC", href: "#understanding-vbac" },
+  { label: "First Conversation", href: "#first-conversation" },
+  { label: "Preparation", href: "#preparation" },
+  { label: "Labour & Safety", href: "#labour-safety" },
   { label: "Dr. Santoshi Nandigam", href: "#doctor" },
   { label: "FAQs", href: "#faqs" },
 ];

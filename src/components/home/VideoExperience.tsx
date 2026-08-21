@@ -44,7 +44,7 @@ export function VideoExperience({
     <section className={className}>
       <Container>
         <Reveal className="mx-auto max-w-xl text-center">
-          <p className="text-[13px] font-semibold uppercase tracking-[0.14em] text-rose">
+          <p className="text-[14px] sm:text-[15px] font-bold uppercase tracking-[0.14em] text-rose">
             {eyebrow}
           </p>
           <h2 className="mt-3 font-display text-[28px] font-bold leading-tight text-ink md:text-[36px]">

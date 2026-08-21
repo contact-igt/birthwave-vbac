@@ -7,9 +7,10 @@ import { Container } from "@/components/Container";
 import { site } from "@/lib/site";
 
 const navItems = [
-  { label: "Overview", href: "#care-support" },
-  { label: "Experience", href: "#video" },
-  { label: "Journey", href: "#journey" },
+  { label: "Understanding VBAC", href: "#understanding-vbac" },
+  { label: "First Conversation", href: "#first-conversation" },
+  { label: "Preparation", href: "#preparation" },
+  { label: "Labour & Safety", href: "#labour-safety" },
   { label: "Doctor", href: "#doctor" },
   { label: "FAQs", href: "#faqs" },
 ];
@@ -36,12 +37,12 @@ export function Header() {
           <BrandMark size="sm" />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-6 xl:gap-7 lg:flex" aria-label="Primary">
           {navItems.map((item) => (
             <a
               key={item.label}
               href={item.href}
-              className="text-[16px] font-medium text-ink/80 transition-colors hover:text-brown"
+              className="text-[15px] xl:text-[16px] font-medium text-ink/80 transition-colors hover:text-brown"
             >
               {item.label}
             </a>
@@ -50,9 +51,9 @@ export function Header() {
 
         <a
           href="#contact-form"
-          className="hidden rounded-full bg-brown px-5 py-2.5 text-[16px] font-semibold text-white transition-all duration-150 hover:bg-brown-600 active:scale-[0.98] lg:inline-block"
+          className="hidden rounded-full bg-brown px-5 py-2.5 text-[15px] xl:text-[16px] font-semibold text-white transition-all duration-150 hover:bg-brown-600 active:scale-[0.98] lg:inline-block"
         >
-          Book Appointment
+          Book Consultation
         </a>
 
         <button
