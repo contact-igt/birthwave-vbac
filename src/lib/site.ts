@@ -8,13 +8,13 @@ export const site = {
     name: "Dr. Santoshi Nandigam",
     title: "Obstetrics & Gynaecology",
   },
-  phone: "+91 93630 31925",
-  phoneRaw: "9363031925",
-  phoneHref: "tel:+919363031925",
+  phone: "+91 79042 51378",
+  phoneRaw: "7904251378",
+  phoneHref: "tel:+917904251378",
   cugPhone: "+91 98407 98472",
   cugPhoneRaw: "9840798472",
   cugPhoneHref: "tel:+919840798472",
-  whatsapp: "+91 7904251378",
+  whatsapp: "+91 79042 51378",
   whatsappHref:
     "https://wa.me/917904251378?text=" +
     encodeURIComponent("Hi, I'd like to book an appointment with The Birth Wave."),
